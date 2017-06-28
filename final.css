@@ -1,0 +1,196 @@
+dt:after {
+  font-family: FontAwesome;
+  content: "\f105";
+  font-size: 36px;
+  float: right;
+  margin-left: 5px;
+  font-weight: 100;
+}
+dt.expanded:after {
+  font-family: FontAwesome;
+  content: "\f107";
+  font-size:36px;
+  font-weight: 100;
+}
+i.fa {
+    font-size: 32px;
+}
+i.material-icons{
+  font-size: 32px;
+}
+.material-icons{
+  padding-right: 12px;
+
+}
+.fa{
+  padding-right: 12px;
+}
+.page-title{
+  margin: 2em 0 0 0;
+  color: black;
+}
+#faqs dt { cursor: pointer; padding: 10px 0 5px 0;}
+#faqs dd { font-size: 1em; left: 50px;}
+#faqs > li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.std {
+    max-width: none;
+
+    margin: 0 0 3em 0;
+}
+.std p{
+  font-size: 20px;
+}
+ul.info-accordion {
+    padding-top: 5px;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.std ul {
+    margin-bottom: 1.5em;
+}
+ul.info-accordion li {
+    margin-left: 0;
+}
+ul.info-accordion > li {
+    margin: 0;
+    padding: 0.5em 0;
+    line-height: 1;
+}
+body{
+  font-family: "Lato";
+  color: #404048;
+  font-size: 24px;
+}
+div{
+  display: block;
+}
+.row{
+  position: relative; overflow: visible; box-sizing: border-box; min-height: 1px; transform: none;
+}
+.col-md-3 .col-sm-4 {
+  position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;
+}
+.sidebar{
+  padding-top: 0px; padding-bottom: 1px; position: static; transform: none; top: 0px; left: 130px;
+  font-size: 16px; margin: 2.5em 0 0 2em;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    cursor: pointer;
+}
+.sidebar a:hover{
+  color: darkorchid;
+}
+p {
+    margin-bottom: 1.5em;
+    line-height: 2em;
+}
+b{
+  color: #000;
+}
+b:hover{
+  color: #404048;
+}
+dt:hover{
+  color: darkorchid;
+}
+table {
+    font-size: inherit;
+    line-height: 1.5;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    vertical-align: top;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-left: 0;
+    display: list-item;
+}
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 18px;
+    }
+    dt{
+      font-size: 19px;
+    }
+    #t1{
+
+      font-size: 20px;
+    }
+  .std p{
+      font-size: 18px;
+    }
+    strong{
+      font-size: 32px;
+    }
+    dt:after {
+      font-family: FontAwesome;
+      content: "\f105";
+      font-size: 26px;
+      float: right;
+      margin-left: 5px;
+    }
+    dt.expanded:after {
+      font-family: FontAwesome;
+      content: "\f107";
+      font-size:26px;
+    }
+    i.fa {
+        font-size: 21px;
+    }
+    i.material-icons{
+      font-size: 21px;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+    dt{
+      font-size: 18px;
+    }
+    p{
+      font-size: 18px;
+    }
+    strong{
+      font-size: 34px;
+    }
+    dt:after {
+      font-family: FontAwesome;
+      content: "\f105";
+      font-size: 28px;
+      float: right;
+      margin-left: 5px;
+    }
+    dt.expanded:after {
+      font-family: FontAwesome;
+      content: "\f107";
+      font-size:28px;
+    }
+    i.fa {
+        font-size: 24px;
+    }
+    i.material-icons{
+      font-size: 24px;
+    }
+    .sidebar{
+      margin-left: 0;
+    }
+  }

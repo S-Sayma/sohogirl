@@ -1,0 +1,128 @@
+body{
+  font-family: "Lato";
+}
+div{
+  display: block;
+}
+.row{
+  position: relative; overflow: visible; box-sizing: border-box; min-height: 1px; transform: none;
+}
+.col-md-4{
+  position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;
+}
+
+.col-md-4 .sidebar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+}
+.col-md-4 .sidebar a:hover{
+  color: darkorchid;
+}
+.page-title {
+    margin: 2em 0 0 0;
+    color: black;
+}
+.std {
+    max-width: none;
+    font-size: 20px;
+    margin: 0 0 3em 0;
+}
+ul.info-accordion {
+    padding-top: 5px;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.std ul {
+//    list-style: disc outside;
+    margin-bottom: 1.5em;
+}
+ul.info-accordion li {
+    margin-left: 0;
+}
+ul.info-accordion > li {
+    margin: 0;
+    padding: 0.5em 0;
+    line-height: 1;
+}
+#faqs > li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+li {
+    display: list-item;
+}
+ul.info-accordion .accordion {
+    font-weight: bold;
+//    font-size: 20px;
+    margin: 0;
+    display: block;
+    position: relative;
+    line-height: 1;
+}
+.material-icons{
+  padding-right: 12px;
+
+}
+.fa{
+  padding-right: 12px;
+}
+ul.info-accordion .panel {
+    margin: 1.5em 0 0 0;
+}
+.info-accordion .panel{
+  line-height: 1.5;
+}
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+ ul.info-accordion .accordion{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    display: block;
+    position: relative;
+    line-height: 1;
+}
+i.tog.fa-angle-right.fa {
+    font-size: 30px;
+    /* margin-left: 0; */
+    float: right;
+}
+i.tog.fa-angle-down.fa {
+    font-size: 30px;
+    /* margin-left: 0; */
+    float: right;
+}
+.panel{
+ box-shadow: 0 1px 1px rgba(0,0,0,0) !important;
+}
+
+.container--narrow-sidebar {
+    max-width: calc(800px + 250px + 24px);
+}
+@media only screen and (min-width: 500px)
+.container {
+    padding: 0 16px;
+}
+.container{
+  margin: 0 auto;
+}
+.staticpage_wrapper
+  {
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    min-height: 1px;
+    transform: none;
+}
+.staticpage_sidebar .desktop-only{
+  position: relative;
+overflow: visible;
+box-sizing: border-box;
+min-height: 1px;
+}

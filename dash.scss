@@ -1,0 +1,461 @@
+div {
+    display: block;
+}
+body {
+    font-family: "brandon-grotesque";
+    font-size: 1em;
+    font-family: "brandon-grotesque";
+    color: #404048;
+  //  font-size: 14px;
+    line-height: 1.5;
+    background: #FFF;
+}
+/*body, button, input, table, textarea {
+  font-family: "brandon-grotesque";
+  color: #404048;
+//  font-size: 14px;
+  line-height: 1.5;
+}*/
+.container--narrow-sidebar {
+    max-width: calc(800px + 250px + 24px);
+}
+@media only screen and (min-width: 900px){
+  .container {
+      padding: 0 24px;
+  }
+}
+
+@media only screen and (min-width: 500px){
+  .container {
+      padding: 0 16px;
+  }
+}
+
+.container {
+  //  max-width: 1248px;
+    margin: 0 auto;
+  //  padding: 0 12px;
+}
+.staticpage_wrapper .my-account{
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    min-height: 1px;
+    transform: none;
+}
+.theiaStickySidebar{
+    padding-top: 0px;
+    padding-bottom: 1px;
+    position: static;
+    transform: none;
+}
+
+@media only screen and (min-width: 768px){
+  .my-account .staticpage_sidebar, .my-account .staticpage_content {
+    float: right;
+}
+}
+
+@media only screen and (min-width: 768px){
+  .staticpage_content {
+      width: calc(100% - 250px);
+      padding-left: 24px;
+  }
+}
+
+.staticpage_content {
+  //  width: 100%;
+}
+.staticpage_sidebar, .staticpage_content {
+//    float: left;
+    overflow: hidden;
+}
+.page-title {
+    margin: 2em 0 0 0;
+}
+
+@media only screen and (min-width: 768px){
+  .staticpage h1, .staticpage .h1 {
+      font-size: 42px;
+  }
+}
+@media only screen and (min-width: 900px){
+  .page-title h1 {
+      font-size: 42px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .page-title h1 {
+      font-size: 36px;
+  }
+}
+@media only screen and (min-width: 900px){
+  .page-title h1 {
+      font-size: 42px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .page-title h1 {
+      font-size: 34px;
+  }
+}
+h1, .h1 {
+    margin-bottom: 0.6em;
+    color: #000;
+    font-family: "brandon-grotesque";
+
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2;
+    text-transform: none;
+}
+.dashboard {
+    margin-bottom: 30px;
+}
+@media only screen and (min-width: 600px){
+  .lead {
+      font-size: 21px;
+  }
+}
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+.heading-group {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 768px){
+  .staticpage h2, .staticpage .h2 {
+      font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .my-account h2 {
+      font-size: 24px;
+  }
+}
+h2, .h2 {
+    margin-bottom: 0.75em;
+    color: #000;
+    font-family: "brandon-grotesque";
+//    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2;
+    text-transform: none;
+}
+.my-account .heading-group .button{
+  margin-left: 1em;
+}
+@media only screen and (min-width: 768px){
+  .my-account .button--subtle {
+      margin-top: 23px;
+  }
+  .my-account .ed{
+      margin-top: 5px;
+  }
+}
+.my-account .button--subtle {
+    background: none;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #000;
+//    margin-top: 6px;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.button--s {
+    font-size: 13px;
+  //  font-weight: bold;
+//    line-height: 30px;
+    text-transform: capitalize;
+}
+.button{
+    display: inline-block;
+    /*padding: 0 0.9em;
+    border: 0;
+    background: #000;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;*/
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+//    transition: all 200ms linear 0;
+    cursor: pointer;
+}
+.my-account .button--subtle:hover {
+    background: darkorchid;
+    color: #fff;
+    border: 1px solid darkorchid;
+}
+@media only screen and (min-width: 768px) {
+  .my-account table{
+    font-size: 16px;
+  }
+}
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: "brandon-grotesque";
+color: #404048;
+//font-size: 14px;
+line-height: 1.5;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.my-account th {
+    color: #000;
+}
+.simple-table th{
+    padding-right: 1.75em;
+    padding-bottom: 0.5em;
+    line-height: 1.2em;
+    vertical-align: top;
+    font-weight: bold;
+}
+th{
+  //  font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+.simple-table td:last-child {
+    padding-right: 0;
+}
+.simple-table td {
+//    padding-right: 1.75em;
+    padding-bottom: 0.5em;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+.simple-table tr:last-child td {
+    padding-bottom: 0;
+}
+.simple-table td:last-child {
+    padding-right: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: darkorchid;
+    text-decoration: none;
+}
+.table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+table {
+    display: table;
+//    border-collapse: separate;
+  //  border-spacing: 2px;
+    border-color: grey;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.my-account .table thead th {
+    border-color: #000;
+}
+.my-account .table th {
+    padding: 10px;
+}
+.table thead th {
+    //padding-top: 8px;
+  //  padding-bottom: 8px;
+    background: #f0f0f0;
+//    font-size: 13px;
+    white-space: nowrap;
+}
+.table th {
+//    padding: 10px 8px;
+    border-top: 1px solid #D0D0DE;
+    border-bottom: 1px solid #D0D0DE;
+    vertical-align: top;
+}
+th{
+  display: table-cell;
+}
+@media only screen and (min-width: 768px) {
+  .my-account .table th {
+    font-size: 16px;
+}
+}
+.my-account .recent-orders-table tbody td {
+    border-color: #000;
+}
+.my-account .table td {
+    padding: 10px 10px 15px 10px;
+}
+.table td, .table th {
+    /* padding: 10px 8px; */
+    border-top: 1px solid #D0D0DE;
+    /* border-bottom: 1px solid #D0D0DE; */
+    vertical-align: top;
+}
+.button--wide {
+    width: 100%;
+}
+.button--s {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.button{
+    display: inline-block;
+    padding: 0 0.9em;
+    border: 0;
+    background: #000;
+    color: #FFF;
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+    /* line-height: 40px; */
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+//    transition: all 200ms linear 0;
+    cursor: pointer;
+}
+.button:hover{
+    background: darkorchid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 0 0 1px inset;
+    color: #FFF;
+}
+@media only screen and (max-width: 321px){
+  .button--wide {
+   width: 70%;
+  }
+}
+.my-account .recent-orders-table tr:last-child td{
+    border-bottom: 1px solid #000;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+ul {
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+}
+@media only screen and (min-width: 500px){
+  .card-list_item {
+   width: 44%;
+  }
+}
+.card-list_item {
+    display: flex;
+    /* width: 100%; */
+    padding: 0 15px 30px;
+}
+@media only screen and (max-width: 425px){
+  .card-list_item {
+   width: 100%;
+  }
+}
+.my-account .card-list_card {
+    background: none;
+    border: 0;
+    padding: 0;
+}
+.card-list_card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+    /* padding: 15px; */
+    /* border: 1px solid #D0D0DE; */
+    border-radius: 0;
+    /* background: #f0f0f0; */
+}
+@media only screen and (min-width: 768px){
+  .staticpage h5, .staticpage .h5 {
+      font-size: 20px;
+  }
+}
+h5, .h5 {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: "brandon-grotesque";
+    /* font-size: 13px; */
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin: 0;
+}
+.card-list_card > *:last-child {
+    margin-bottom: 0;
+}
+.staticpage_sidebar {
+    /* width: 100%; */
+    margin-top: 1em;
+}
+
+}
+@media only screen and (min-width: 900px){
+  .my-account .staticpage_sidebar ul li {
+      position: relative;
+  }
+}
+@media only screen and (min-width: 900px){
+  .my-account .staticpage_sidebar ul li.current:before {
+      font-size: 13px;
+      font-family: icomoon;
+      content: "\e93c";
+      position: absolute;
+      left: -18px;
+      top: 2px;
+  }
+}
+.my-account li.current a {
+    font-weight: bold;
+}
+.staticpage_sidebar{
+  width: 226px;
+}
+@media only screen and (max-width: 425px){
+  h2{
+   font-size: 22px;
+  }
+  .my-account .button--subtle {
+      margin-top: 18px;
+  }
+  table{
+    font-size: 15px;
+  }
+  a.button.button--s.button--subtle.m-b-0.ed {
+      margin-top: 5px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  .my-account .button--subtle {
+      margin-top: 23px;
+  }
+  .my-account .ed{
+      margin-top: 5px;
+  }
+}

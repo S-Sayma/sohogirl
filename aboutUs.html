@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="abtUs.scss">
+    <style media="screen">
+    button.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+
+}
+
+button.accordion.active {
+  background-color: white;
+}
+
+button.accordion:hover {
+  background-color: white;
+  color:purple;
+}
+
+div.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  transition: 0.8s ease;
+}
+.panel{
+  transition: 1s ease;
+  transition-delay: 5s;
+  transition-duration: 10s;
+}
+button.accordion:after {
+  font-family: FontAwesome;
+  content: "\f105";
+
+  margin-left: 5px;
+}
+button.accordion.active:after {
+  font-family: FontAwesome;
+  content: "\f107";
+}
+
+  </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 ">
+          <div class="theiaStickySidebar">
+            <p>
+              <b>Visit Our Store</b>
+              <br>Open 7 Days (9am-6pm)
+              <br>1151 Santee St.
+              <br>Los Angeles, CA 90015
+            </p>
+            <p>
+              <a href="#">Contact Us</a>
+              <br>Call Us: 1-(213)-800-4492
+              <br>Phone Hours: 9am-6pm PST
+              <br><em>Hablamos Espa&ntilde;ol</em>
+            </p>
+            <p>
+            <a href="#">Size Chart</a><br>
+            <a href="#">FAQ</a><br>
+            <a href="#">Site Map</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-8">
+          <div class="page-title">
+            <h1>About Soho Girl</h1>
+          </div>
+          <div class="std">
+            <ul class="info-accordion">
+              <li>
+                <button class="accordion"><i class="material-icons">store_mall_directory</i>Who We Are &amp; What We Do</button>
+                <div class="panel">
+                  <p>Fashion is a form of art and you are a beautiful canvas. What you wear represents who you are.
+                  <b>Soho Girl </b> believes in <b>Fahion For All. </b>
+                  Our mission is to bring trending runway designs to the streets, lighting up cities and towns across America with affordable couture fashion and innovative styles.
+                  </p>
+                  <p>Headquartered in Downtown Los Angeles, <b>Soho Girl’s</b> location allows us to work exclusively with the talented designers of the infamous <b>LA Fashion District</b>
+                    . Growing from a Soho NYC brick &amp; mortar to an international online fashion destination, the <b>Soho Girl</b>
+                     team has been continuously scouting the globe for cutting edge fashion since 1999.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="material-icons">tag_faces</i>100% Happy Experience</button>
+                <div class="panel">
+                  <p>Your most beautiful accessory is your smile. At <b>Soho Girl, </b>we strive to make your shopping experience fun, stress-free, and something you feel good about. Most of our products are
+                    <b>designed</b> and <b>ethically manufactured</b> right here <b>in America</b>
+                    . If we do source from an international fabricator, we will let you know in the product description.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="fa fa-truck"></i>Insured Orders &amp; Same Day Shipping</button>
+                <div class="panel">
+                  <p>Keep calm and shop on. As a Google Trusted Store, every <b>Soho Girl</b> order is <b>insured up to $1,000</b>. If you get your order in before 4pm (Pacific), we ship it to you that same day. Late night shopper? We’ll get your goods postmarked and on their way the next business day.</p>
+                  <p>We believe the fashionistas of world deserve a little love which is why we offer <b>free USPS shipping on all orders over $75</b>. Orders under $75 are shipped USPS for just $6.95. Standard shipping takes about 2-5 business days. Need your goods in a hurry? We got you. Just select USPS Next Day Air, 2nd Day Air, or 3rd Day Air when checking out. USPS delivers Monday through Friday, save for holidays. Weekend delivery is available in some areas and, as much as we would love to, we can’t guarantee it.
+                  </p>
+                  <p>Please double check that your shipping address is accurate and secure. <b>Soho Girl</b> will safely package and send your order, but once it is marked delivered by the USPS, we are released of all liability.
+                  </p>
+                  <p>Globetrotting Fashionistas, we’ll cover <b>international shipping</b> for all orders over $99. International Orders under $99 ship for just $19.99. International orders are shipped the same day they are placed (see above) and take anywhere from 3-7 days to arrive, depending on your location. For a list of countries we are able ship internationally, scroll to the bottom of this page.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="material-icons">markunread_mailbox</i>Stress-free Return Policy</button>
+                <div class="panel">
+                  <p>Life is too good to stress over returns. We want you to love your purchase as much as we do. If you get your order and aren’t completely satisfied with your items, simply package them back up and include a note with your order number and either the word "REFUND" or "EXCHANGE"
+                  </p>
+                  <p>If you choose to EXCHANGE, be sure to include the new size you want and a contact email or phone number in case new shipping costs are incurred.
+                  </p>
+                  <p>Ship returns to: <b>Soho Girl, 1151 Santee. St. Los Angeles, CA 90015</b></p>
+                  <p>Returns must be postmarked back to us within 14 days of delivery. All return items must be in brand new condition, no signs of wear and tags still attached. Returns from orders that received free shipping will be refunded less the $6.95 shipping cost. All sequin items are subject to a 25% restocking fee. </p>
+                  <p><b>The exception</b> to our awesome return policy is swimsuits and Halloween costumes, for obvious hygienic reasons, and Shail K and Elizabeth K dresses, for contractual reasons. </p>
+                  <p><b>Soho Girl’s</b> goal is to make you happy and beautiful. We are pleased to offer easy returns and ask that you hold onto your return tracking and shipping information until your return is fully processed. </p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="material-icons">perm_phone_msg</i>Talk To Me, Baby</button>
+                <div class="panel">
+                  <p>We love hearing from you. Got questions, concerns, or just want to say hi?
+                    <b>Email</b> us at help@sohogirl.com or <b>call</b> us any time between 9AM – 6PM PST at 888-725-7646.  More into snail mail?
+                    <b>Write</b> us at 1121 Santee Street, Los Angeles, CA 90015
+                  </p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="fa fa-barcode"></i>Wholesale Inquiries</button>
+                <div class="panel">
+                  <p>We would love to work with you and offer wholesale pricing to select retailers. For a wholesale application and pricing, call 213-800-4492.</p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="material-icons">lock_outline</i>Sohogirl.com Privacy &amp; Security</button>
+                <div class="panel">
+                  <p>We know how important it is to shop safely online. Protecting your security and information is our highest priority.  We are committed to ensuring that your information is secure. In order to prevent unauthorized access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.  We use SSL (Secure Socket Layer) connections to ensure your Credit Card information cannot be taken by a third party.</p>
+                  <p>Any personal information we may collect from you, including your name, email address, demographic information such as postcode, preferences and interests, or any other information relevant to customer surveys and/or offers, is used to better understand the needs of Soho Girl customers and create the most outstanding shopping experience possible. </p>
+                  <p>This information is used for internal record keeping, to improve our products and services, and to periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided.</p>
+                  <p>From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customize the website according to your interests.</p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="fa fa-database"></i>Cookies</button>
+                <div class="panel">
+                  <p>Cookies are commonly found on most websites. A cookie is a small file which asks permission to be placed on your computer's hard drive. Once you agree, the file is added and the cookie helps analyze web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.</p>
+                  <p>We use traffic log cookies to identify which pages are being used. This helps us analyze data about web page traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.</p>
+                  <p>Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us. You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.</p>
+                </div>
+              </li>
+              <li>
+                <button class="accordion"><i class="fa fa-globe" style="font-size:24px"></i>International Shipping</button>
+                <div class="panel">
+                  <p><b>Located in sunny southern California, Soho Girl happily ships to the following countries:</b></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  </body>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+      var active = document.querySelector(".accordion.active");
+      if (active && active != this) {
+        active.classList.remove("active");
+        active.nextElementSibling.classList.remove("show");
+      }
+      this.classList.toggle("active");
+      this.nextElementSibling.classList.toggle("show");
+    }
+  }
+  </script>
+</html>

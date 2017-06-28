@@ -1,0 +1,90 @@
+<head>
+  <style media="screen">
+  button.accordion {
+background-color:white;
+color: black;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 18px;
+transition: 0.4s;
+font-weight: 600;
+}
+button.accordion.active {
+  background-color: white;
+}
+
+button.accordion:hover {
+  background-color: white;
+  color:purple;
+}
+button.accordion:after {
+  font-family: FontAwesome;
+  content: "\f105";
+font-size: 13px;
+
+float: right;
+margin-left: 5px;
+}
+button.accordion.active:after {
+  font-family: FontAwesome;
+  content: "\f107";
+}
+.panel {
+padding: 0 18px;
+background-color: white;
+max-height: 0;
+overflow: hidden;
+transition: 0.4s;
+opacity: 0;
+}
+.panel.show {
+opacity: 1;
+max-height: 500px;
+}
+.panel.hide {
+opacity: 0;
+height: 0;
+}
+  </style>
+</head>
+<button class="accordion">Section 1</button>
+<div  class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">Section 2</button>
+<div  class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">Section 3</button>
+<div  class="panel">
+  <p>Fashion is a form of art and you are a beautiful canvas. What you wear represents who you are.
+  <b>Soho Girl </b> believes in <b>Fahion For All. </b>
+  Our mission is to bring trending runway designs to the streets, lighting up cities and towns across America with affordable couture fashion and innovative styles.
+  </p>
+  <p>Headquartered in Downtown Los Angeles, <b>Soho Girl’s</b> location allows us to work exclusively with the talented designers of the infamous <b>LA Fashion District</b>
+    . Growing from a Soho NYC brick &amp; mortar to an international online fashion destination, the <b>Soho Girl</b>
+     team has been continuously scouting the globe for cutting edge fashion since 1999.
+  </p>
+</div>
+
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].onclick = function() {
+  var active = document.querySelector(".accordion.active");
+  if (active && active != this) {
+    active.classList.remove("active");
+    active.nextElementSibling.classList.remove("show");
+  }
+  this.classList.toggle("active");
+  this.nextElementSibling.classList.toggle("show");
+}
+}
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
